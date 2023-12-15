@@ -1,0 +1,99 @@
+version: "3.8"
+
+services:
+  discovery:
+    container_name: eureka
+    build: C:\Users\asust\Desktop\dhia\EurekaDiscovServer
+    ports:
+      - "8761:8761"
+    image: "eureka"
+
+  mysql:
+    image: mysql:8
+    container_name: mysql
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+      - MYSQL_DATABASE=microser
+    command: --character-set-server=utf8 --collation-server=utf8_unicode_ci
+
+  bloc:
+    container_name: bloc
+    build: C:\Users\asust\Desktop\dhia\MsBloc
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
+    ports:
+      - "8081:8081"
+    image: "bloc"
+    depends_on:
+      - discovery
+
+  universite:
+    container_name: universite
+    build: C:\Users\asust\Desktop\dhia\MsUniversite
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
+    ports:
+      - "8186:8086"
+    image: "universite"
+    depends_on:
+      - discovery
+
+  foyer:
+    container_name: foyer
+    build: C:\Users\asust\Desktop\dhia\MsFoyer
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
+    ports:
+      - "8084:8084"
+    image: "foyer"
+    depends_on:
+      - discovery
+
+  chambre:
+    container_name: chambre
+    build: C:\Users\asust\Desktop\dhia\MsChambre
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
+    ports:
+      - "8082:8082"
+    image: "chambre"
+    depends_on:
+      - discovery
+
+  restaurant:
+    container_name: restaurant
+    build: C:\Users\asust\Desktop\dhia\MsRestaurant
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
+    ports:
+      - "8085:8085"
+    image: "restaurant"
+    depends_on:
+      - discovery
+
+  equipement:
+    container_name: equipement
+    build: C:\Users\asust\Desktop\dhia\MsEquipement
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
+    ports:
+      - "8083:8083"
+    image: "equipement"
+    depends_on:
+      - discovery
+
+  api-gateway:
+    container_name: api-gateway
+    build: C:\Users\asust\Desktop\dhia\Api_Gateway
+    ports:
+      - "8086:8086"
+    environment:
+      - SPRING_APPLICATION_NAME=api-gateway
+      - SERVER_PORT=8086
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://discovery:8761/eureka
+      - EUREKA_CLIENT_REGISTER-WITH-EUREKA=true
+    image: "gateway"
+    depends_on:
+      - discovery

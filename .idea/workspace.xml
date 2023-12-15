@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d3df361-baa5-4768-a99b-0677c0b9eff4" name="Changes" comment="" />
+    <list default="true" id="5d3df361-baa5-4768-a99b-0677c0b9eff4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MsBloc/src/test/java/esprit/tn/msbloc/MsBlocApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MsChambre/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/MsChambre/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MsRestaurant/src/main/java/com/example/webdistrrrr/controller/RestaurantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MsRestaurant/src/main/java/com/example/webdistrrrr/controller/RestaurantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MsUniversite/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/MsUniversite/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MsUniversite/src/main/java/com/universite/universite/Controller/UniversiteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MsUniversite/src/main/java/com/universite/universite/Controller/UniversiteController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,17 +60,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/MsFoyer",
+    "last_opened_file_path": "C:/Users/asust/Desktop/dhia",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "ac302290d595826dc599c9980720dcb0",
+    "spring.configuration.checksum": "3cd0ec8f0b402611e1848c6d801541e6",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.MsFoyerApplication">
+  <component name="RunManager" selected="Docker.Docker-compose.yml: Compose Deployment">
     <configuration name="ChambreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="MS-Chambre" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.chambre.ChambreApplication" />
@@ -71,6 +81,13 @@
     <configuration name="EurekaDiscovServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="EurekaDiscovServer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="tn.esprit.eurekadiscovserver.EurekaDiscovServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsBlocApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="MsBloc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="esprit.tn.msbloc.MsBlocApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,6 +113,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebdistrrrrApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="webdistrrrr" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.webdistrrrr.WebdistrrrrApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="Docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -108,6 +145,7 @@
       <workItem from="1702458129958" duration="8230000" />
       <workItem from="1702474364924" duration="2541000" />
       <workItem from="1702492980717" duration="943000" />
+      <workItem from="1702610186269" duration="2997000" />
     </task>
     <servers />
   </component>

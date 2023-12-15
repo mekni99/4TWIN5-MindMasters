@@ -10,7 +10,6 @@ import java.util.Optional;
 
 @AllArgsConstructor
 @RestController
-@CrossOrigin(origins = "http://localhost:4200",allowedHeaders = "*")
 @RequestMapping("/restaurant")
 public class RestaurantController {
     private final RestaurantServicesIMP restaurantImp;

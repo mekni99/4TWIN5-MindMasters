@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="MS-Chambre" />
-        <module name="msSami" />
-        <module name="MsFoyer" />
         <module name="EurekaDiscovServer" />
         <module name="MsUniversite" />
+        <module name="msSami" />
+        <module name="MsFoyer" />
+        <module name="MsBloc" />
+        <module name="webdistrrrr" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,9 +20,11 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="EurekaDiscovServer" options="-parameters" />
       <module name="MS-Chambre" options="-parameters" />
+      <module name="MsBloc" options="-parameters" />
       <module name="MsFoyer" options="" />
       <module name="MsUniversite" options="-parameters" />
       <module name="msSami" options="-parameters" />
+      <module name="webdistrrrr" options="-parameters" />
     </option>
   </component>
 </project>

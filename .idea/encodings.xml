@@ -3,11 +3,13 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/EurekaDiscovServer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/EurekaDiscovServer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MsBloc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MsChambre/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MsEquipement/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MsEquipement/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MsFoyer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MsFoyer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MsRestaurant/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MsUniversite/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MsUniversite/src/main/resources" charset="UTF-8" />
   </component>
